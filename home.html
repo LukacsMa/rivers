@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Map</title>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    <style>
+        #map {
+            height: 80%;
+        }
+
+        html,
+        body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <h1>COD (chemical oxygen demand) and pH values in 2019.</h1>
+    <h3>Click the marker to see the values</h3>
+    <div id="map"></div>
+
+    <script src="mapApp.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDpAykv7NAF0UXAjIXgy4DFOhjofjYm3Z0&callback=initMap"
+        async defer></script>
+</body>
+
+</html>
